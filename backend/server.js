@@ -45,7 +45,7 @@ app.get('/orders', async (req, res) => {
 });
 
 
-const port = 3002;
+const port = process.env.PORT || 3002;
 app.listen(port, () => {
   console.log(`Server running on http://localhost:${port}`);
 });
