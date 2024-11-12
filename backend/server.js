@@ -5,7 +5,7 @@ const app = express()
 app.use(cors())
 app.use(express.json())
 
-const dbUrl = 'mongodb+srv://iamthulasinath:OXA6RqOxNu0lOX2k@samplecluster.abpfq.mongodb.net/itemsArray?retryWrites=true&w=majority&appName=sampleCluster'
+const dbUrl = 'mongodb+srv://iamthulasinath:jPaVvzMo5pmmd5jl@samplecluster.abpfq.mongodb.net/itemsArray?retryWrites=true&w=majority&appName=sampleCluster'
 
 
 mongoose.connect(dbUrl,{ useNewUrlParser: true, useUnifiedTopology: true })
